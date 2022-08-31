@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ru">
+	 <head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+	<div class="header__scroll">
+		<div class="header__container _container">
+			<div class="header__content">
+				<a href="" class="header__logo">
+					<img src="./img/icons/logo.svg" alt="">
+				</a>
+				<div class="header__contacts">
+					<a href="tel:+79153599519" class="contacts__social-tel">
+						<img class="contacts__whatsapp" src="./img/icons/whatsapp.svg" alt="">
+						<div class="contacts__text">
+							<div class="contacts__title">+7 (915) 359-95-19</div>
+							<span>(Только для сообщений)</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+			<main class="page">
+				<img class="page__star-left" src="./img/icons/page-left.svg" alt="">
+				<section class="page__main-home">
+					<div class="main-home__container _container">
+						<div class="main-home__content">
+							<div class="main-home__text">С 27 декабря по 3 января</div>
+							<div class="main-home__title">“Простой турецкий со <span>скидкой 50%</span>”</div>
+							<div class="main-home__subtitle">При покупке <span>ПОЛНОГО КОМПЛЕКТА ИЗ 4 КУРСОВ</span>
+								до <span>01</span> января вы получаете <span>20 БОНУСОВ (это все наши узкоспециализированные курсы)</span>:</div>
+							<ul class="main-home__list">
+								<li class="main-home__link">Курсы для развития словарного запаса (Начальный уровень А1, Базовый уровень А2, Средний уровень В1, Уровень выше среднего В2) </li>
+								<li class="main-home__link">Курсы для чтения А1, А2, В1, В2 </li>
+								<li class="main-home__link">Разговорные видеокурсы “Поговорим А1”, “Поговорим А2”</li>
+								<li class="main-home__link">Курсы для развития восприятия на слух А1, А2, В1, В2</li>
+								<li class="main-home__link">Видеокурс “Хитит”</li>
+								<li class="main-home__link">Онлайн курс “Повседневный турецкий”</li>
+							</ul>
+							<div class="main-home__sublist">ОБЩАЯ СУММА ПОДАРКОВ 12200 руб. — вам БЕСПЛАТНО! </div>
+							<a href="" class="main-home__button button">Выберите свой <span>новогодний</span> комплект</a>
+						</div>
+						<div class="main-home__bg">
+							<img class="bg__main-home" src="./img/main-home.png" alt="">
+							<div class="bg__quote">
+								<img src="./img/icons/quote.svg" alt="">
+								<div class="bg__text">“Позволь мне стать твоим<br> “виртуальным учителем”, с<br> которым ты выучишь<br> турецкий легко и с<br> удовольствием!”</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__timer">
+					<div class="timer__bg">
+						<img src="./img/icons/bg-timer.svg" alt="">
+					</div>
+					<div class="timer__content _container">
+						<div class="timer__time-count">
+							<h2 class="time-count__title">УСПЕЙ ЗАБРАТЬ ПОДАРКИ</h2>
+							<div class="time-count__content">
+								<div class="time-count__item time-count__days">
+									<div class="time-count__val">00</div>
+									<div class="time-count__text">дней</div>
+								</div>
+								<div class="time-count__separator">:</div>
+								<div class="time-count__item time-count__hours">
+									<div class="time-count__val">00</div>
+									<div class="time-count__text">часов</div>
+								</div>
+								<div class="time-count__separator">:</div>
+								<div class="time-count__item time-count__minutes">
+									<div class="time-count__val">00</div>
+									<div class="time-count__text">минут</div>
+								</div>
+								<div class="time-count__separator">:</div>
+								<div class="time-count__item time-count__seconds">
+									<div class="time-count__val">00</div>
+									<div class="time-count__text">секунд</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__videos">
+					<div class="videos__content _container">
+						<div class="videos__header">
+							<div class="videos__title">Узнайте об акции больше:</div>
+						</div>
+						<div class="videos__items">
+							<div id="video_holder" class="videos__video">
+								<video class="video__item" onclick="playPause();" poster="./img/image-video.png" id="video">
+									<source src="./videos/about.mp4" type='video/mp4'>
+								</video>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__packet">
+					<div class="packet__content _container">
+						<div class="packet__header">
+							<div class="packet__title">Выберите свой новогодний комплект</div>
+						</div>
+						<div class="packet__body">
+							<div class="packet__items">
+								<div class="packet__item item-packet">
+									<div class="item-packet__image">
+										<img src="./img/level-image-1.png" alt="">
+									</div>
+									<div class="item-packet__items">
+										<div class="item-packet__title">Пакет “В розницу”</div>
+										<div class="item-packet__subtitle">ОДИН любой курс на выбор<br>
+											“Простой турецкий для жизни”</div>
+										<div class="item-packet__item">
+											<div class="item-packet__column column-item-packet">
+												<div class="column-item-packet__top">
+													<div class="column-item-packet__text">Начальный уровень А1</div>
+													<div class="column-item-packet__text-italic">Доступ 1 год</div>
+												</div>
+												<div class="column-item-packet__bottom">
+													<div class="column-item-packet__sum">5900 <span>руб.</span><s>12900 <span>руб.</span></s></div>
+													<a href="#lesson" class="column-item-packet__button button _popup-link">Получить доступ</a>
+												</div>
+											</div>
+										</div>
+										<div class="item-packet__item">
+											<div class="item-packet__column column-item-packet">
+												<div class="column-item-packet__top">
+													<div class="column-item-packet__text">Базовый уровень А2</div>
+													<div class="column-item-packet__text-italic">Доступ 1 год</div>
+												</div>
+												<div class="column-item-packet__bottom">
+													<div class="column-item-packet__sum">5900 <span>руб.</span><s>12900 <span>руб.</span></s></div>
+													<a href="#lesson" class="column-item-packet__button button _popup-link">Получить доступ</a>
+												</div>
+											</div>
+										</div>
+										<div class="item-packet__item">
+											<div class="item-packet__column column-item-packet">
+												<div class="column-item-packet__top">
+													<div class="column-item-packet__text">Средний уровень В1</div>
+													<div class="column-item-packet__text-italic">Доступ 1 год</div>
+												</div>
+												<div class="column-item-packet__bottom">
+													<div class="column-item-packet__sum">5900 <span>руб.</span><s>12900 <span>руб.</span></s></div>
+													<a href="#lesson" class="column-item-packet__button button _popup-link">Получить доступ</a>
+												</div>
+											</div>
+										</div>
+										<div class="item-packet__item">
+											<div class="item-packet__column column-item-packet">
+												<div class="column-item-packet__top">
+													<div class="column-item-packet__text">Уровень выше среднего В2</div>
+													<div class="column-item-packet__text-italic">Доступ 1 год</div>
+												</div>
+												<div class="column-item-packet__bottom">
+													<div class="column-item-packet__sum">5900 <span>руб.</span><s>12900 <span>руб.</span></s></div>
+													<a href="#lesson" class="column-item-packet__button button _popup-link">Получить доступ</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="packet__items">
+								<div class="packet__item-two item-packet">
+									<div class="item-packet__image-two">
+										<img src="./img/level-image-2.png" alt="">
+									</div>
+									<div class="item-packet__items">
+										<div class="item-packet__title">Пакет “Оптом”</div>
+										<div class="item-packet__subtitle">Комплект из ЧЕТЫРЕХ курсов<br>
+											“Простой турецкий для жизни”</div>
+										<div class="item-packet__column column-item-packet">
+											<div class="column-item-packet__top-item-packet">
+												<div class="top-item-packet__text">Начальный уровень А1</div>
+												<div class="top-item-packet__text">Средний уровень В1</div>
+											</div>
+											<div class="column-item-packet__top-item-packet">
+												<div class="top-item-packet__text">Базовый уровень А2</div>
+												<div class="top-item-packet__text">Уровень выше среднего В2</div>
+											</div>
+											<div class="column-item-packet__bottom-item-packet">
+												<div class="bottom-item-packet__sum">11900 <span>руб.</span><s>22900 <span>руб.</span></s></div>
+												<div class="bottom-item-packet__buttons">
+													<a href="#lesson" class="bottom-item-packet__button button _popup-link">Получить доступ</a>
+													<span>Доступ 1 год</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__spoller">
+					<div class="spoller__content _container">
+						<div class="spoller__image">
+							<div class="spoller__title">Что вы будете <span>уметь</span> после прохождения <span>каждого комплексного курса</span></div>
+							<img src="./img/image-spoller.png" alt="">
+						</div>
+						<div data-spollers class="spoller__body">
+							<div class="spoller__items">
+								<div class="spoller__item item-spoller">
+									<div data-spoller class="item-spoller__text">
+										“Простой турецкий для жизни”<br>
+										Начальный уровень А1
+									</div>
+									<div class="item-spoller__subtext">
+										<ul class="item-spoller__list">
+											<li class="item-spoller__link">Вы сможете простыми предложениями рассказать о себе, о своей семье, о своих друзьях, о работе.</li>
+											<li class="item-spoller__link">Для вас не составит труда описать, что вы любите и не любите делать.</li>
+											<li class="item-spoller__link">Вы будете уметь спрашивать и отвечать, который час, использовать цифры от 1 до 1 000. </li>
+											<li class="item-spoller__link">Вы сможете поддержать беседу на бытовые темы (ресторан, магазин, улица), задать простые вопросы собеседнику или ответить самому на темы:<br>
+												— об отдыхе<br>
+												— о еде и напитках<br>
+												— о ежедневных делах
+											</li>
+											<li class="item-spoller__link">
+												Сможете написать простые предложения с поздравлениями друзьям и близким.
+											</li>
+										</ul>
+										<a href="" class="item-spoller__video">
+											<img src="./img/icons/youtube.svg" alt="">
+											<span>Фрагмент видеоурока из курса</span>
+										</a>
+									</div>
+								</div>
+								<div class="spoller__item item-spoller">
+									<div data-spoller class="item-spoller__text">
+										“Простой турецкий для жизни”<br>
+										Базовый уровень А2
+									</div>
+									<div class="item-spoller__subtext">
+										<ul class="item-spoller__list">
+											<li class="item-spoller__link">Вы сможете простыми предложениями рассказать о себе, о своей семье, о своих друзьях, о работе.</li>
+											<li class="item-spoller__link">Для вас не составит труда описать, что вы любите и не любите делать.</li>
+											<li class="item-spoller__link">Вы будете уметь спрашивать и отвечать, который час, использовать цифры от 1 до 1 000. </li>
+											<li class="item-spoller__link">Вы сможете поддержать беседу на бытовые темы (ресторан, магазин, улица), задать простые вопросы собеседнику или ответить самому на темы:<br>
+												— об отдыхе<br>
+												— о еде и напитках<br>
+												— о ежедневных делах
+											</li>
+											<li class="item-spoller__link">
+												Сможете написать простые предложения с поздравлениями друзьям и близким.
+											</li>
+										</ul>
+										<a href="" class="item-spoller__video">
+											<img src="./img/icons/youtube.svg" alt="">
+											<span>Фрагмент видеоурока из курса</span>
+										</a>
+									</div>
+								</div>
+								<div class="spoller__item item-spoller">
+									<div data-spoller class="item-spoller__text">
+										“Простой турецкий для жизни”<br>
+										Средний уровень В1
+									</div>
+									<div class="item-spoller__subtext">
+										<ul class="item-spoller__list">
+											<li class="item-spoller__link">Вы сможете простыми предложениями рассказать о себе, о своей семье, о своих друзьях, о работе.</li>
+											<li class="item-spoller__link">Для вас не составит труда описать, что вы любите и не любите делать.</li>
+											<li class="item-spoller__link">Вы будете уметь спрашивать и отвечать, который час, использовать цифры от 1 до 1 000. </li>
+											<li class="item-spoller__link">Вы сможете поддержать беседу на бытовые темы (ресторан, магазин, улица), задать простые вопросы собеседнику или ответить самому на темы:<br>
+												— об отдыхе<br>
+												— о еде и напитках<br>
+												— о ежедневных делах
+											</li>
+											<li class="item-spoller__link">
+												Сможете написать простые предложения с поздравлениями друзьям и близким.
+											</li>
+										</ul>
+										<a href="" class="item-spoller__video">
+											<img src="./img/icons/youtube.svg" alt="">
+											<span>Фрагмент видеоурока из курса</span>
+										</a>
+									</div>
+								</div>
+								<div class="spoller__item item-spoller">
+									<div data-spoller class="item-spoller__text">
+										“Простой турецкий для жизни”<br>
+										Уровень выше среднего В2
+									</div>
+									<div class="item-spoller__subtext">
+										<ul class="item-spoller__list">
+											<li class="item-spoller__link">Вы сможете простыми предложениями рассказать о себе, о своей семье, о своих друзьях, о работе.</li>
+											<li class="item-spoller__link">Для вас не составит труда описать, что вы любите и не любите делать.</li>
+											<li class="item-spoller__link">Вы будете уметь спрашивать и отвечать, который час, использовать цифры от 1 до 1 000. </li>
+											<li class="item-spoller__link">Вы сможете поддержать беседу на бытовые темы (ресторан, магазин, улица), задать простые вопросы собеседнику или ответить самому на темы:<br>
+												— об отдыхе<br>
+												— о еде и напитках<br>
+												— о ежедневных делах
+											</li>
+											<li class="item-spoller__link">
+												Сможете написать простые предложения с поздравлениями друзьям и близким.
+											</li>
+										</ul>
+										<a href="" class="item-spoller__video">
+											<img src="./img/icons/youtube.svg" alt="">
+											<span>Фрагмент видеоурока из курса</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<a href="" class="spoller__button button">Выбрать новогодний комплект <span>и забрать бонусы</span></a>
+						</div>
+					</div>
+				</section>
+				<section class="page__speaker">
+					<div class="speaker__content _container">
+						<div class="speaker__body">
+							<div class="speaker__title">Спикер комплексных новогодних курсов <span>“Простой турецкий для жизни”</span></div>
+							<div class="speaker__subtitle">Знакомьтесь!<br>
+								Это Гектюрк Чалышкан — носитель языка.</div>
+							<ul class="speaker__list">
+								<li class="speaker__link">Преподает турецкий язык более 5 лет</li>
+								<li class="speaker__link">Выпускник Анкарского государственного университета</li>
+								<li class="speaker__link">Свободно владеет русским и английским языками</li>
+								<li class="speaker__link">Ведущий ютуб канала школы турецкого языка “Диалог”.</li>
+							</ul>
+						</div>
+						<div class="speaker__image">
+							<img src="./img/photo.png" alt="">
+						</div>
+					</div>
+				</section>
+				<section class="page__timer">
+					<div class="timer__bg">
+						<img src="./img/icons/bg-timer.svg" alt="">
+					</div>
+					<div class="timer__content _container">
+						<div class="timer__time-count-two">
+							<h2 class="time-count-two__title">УСПЕЙ ЗАБРАТЬ ПОДАРКИ</h2>
+							<div class="time-count-two__content">
+								<div class="time-count-two__item time-count-two__days">
+									<div class="time-count-two__val">00</div>
+									<div class="time-count-two__text">дней</div>
+								</div>
+								<div class="time-count-two__separator">:</div>
+								<div class="time-count-two__item time-count-two__hours">
+									<div class="time-count-two__val">00</div>
+									<div class="time-count-two__text">часов</div>
+								</div>
+								<div class="time-count-two__separator">:</div>
+								<div class="time-count-two__item time-count-two__minutes">
+									<div class="time-count-two__val">00</div>
+									<div class="time-count-two__text">минут</div>
+								</div>
+								<div class="time-count-two__separator">:</div>
+								<div class="time-count-two__item time-count-two__seconds">
+									<div class="time-count-two__val">00</div>
+									<div class="time-count-two__text">секунд</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__benefits">
+					<div class="benefits__content _container">
+						<div class="benefits__image image-benefits">
+							<div class="image-benefits__title">В чем преимущества новогоднего комплекта
+								из 4 курсов</div>
+							<img src="./img/benefits-image.png" alt="">
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__column">
+								<div class="block-benefits__item">
+									<img src="./img/icons/check.svg" alt="">
+									<div class="block-benefits__text">
+										<div class="block-benefits__title">Новогодняя скидка 50% — экономьте с нами </div>
+										<div class="block-benefits__subtitle">Приобретая новогодний комплект из 4 курсов “Простой турецкий для жизни”, вы хорошо экономите.
+											<br>
+											<br>
+											Вы можете учить турецкий в течение года и больше не переплачивать за другие курсы.</div>
+									</div>
+								</div>
+							</div>
+							<div class="block-benefits__column">
+								<div class="block-benefits__item">
+									<img src="./img/icons/check.svg" alt="">
+									<div class="block-benefits__text">
+										<div class="block-benefits__title">Гектюрк станет вашим “виртуальным учителем”</div>
+										<div class="block-benefits__subtitle">Все уроки курсов записаны носителем языка, Гектюрком.
+											Он станет вашим “виртуальным учителем”, с которым изучение турецкого превратится в настоящее удовольствие. </div>
+									</div>
+								</div>
+							</div>
+							<div class="block-benefits__column">
+								<div class="block-benefits__item">
+									<img src="./img/icons/check.svg" alt="">
+									<div class="block-benefits__text">
+										<div class="block-benefits__title">Технология обучения, проверенная более чем на 20000 студентов</div>
+										<div class="block-benefits__subtitle">Вы получаете профессионально записанные уроки с эффективной методикой обучения, что позволит вам заговорить намного быстрее.</div>
+									</div>
+								</div>
+							</div>
+							<div class="block-benefits__column">
+								<div class="block-benefits__item">
+									<img src="./img/icons/check.svg" alt="">
+									<div class="block-benefits__text">
+										<div class="block-benefits__title">Внутри курсов есть все, что вам нужно для легкого изучения турецкого</div>
+										<div class="block-benefits__row">
+											<ul class="block-benefits__list-column">
+												<li class="block-benefits__link">18 уроков в каждом курсе</li>
+												<li class="block-benefits__link">Контрольные тесты</li>
+												<li class="block-benefits__link">Объяснение грамматических тем</li>
+												<li class="block-benefits__link">Моментальная автопроверка всех заданий</li>
+												<li class="block-benefits__link">Тренажер для заучивания слов</li>
+											</ul>
+											<ul class="block-benefits__list-column">
+												<li class="block-benefits__link">Задания на развитие словарного запаса</li>
+												<li class="block-benefits__link">Задания для развития восприятия на слух</li>
+												<li class="block-benefits__link">Виртуальная турецкая клавиатура</li>
+												<li class="block-benefits__link">Турецко-русский и русско-турецкий электронный словарь.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="block-benefits__column">
+								<div class="block-benefits__item">
+									<img src="./img/icons/check.svg" alt="">
+									<div class="block-benefits__text">
+										<div class="block-benefits__title">Комплект из 4 курсов разных уровней сложности подойдет для любых ваших целей</div>
+										<div class="block-benefits__row">
+											<ul class="block-benefits__list">
+												<li class="block-benefits__link">для путешествий</li>
+												<li class="block-benefits__link">для чтения турецких книг и просмотра сериалов и фильмов в оригинале</li>
+												<li class="block-benefits__link">для общения с турецкими друзьями, родственниками</li>
+												<li class="block-benefits__link">для учебы и работы в Турции</li>
+												<li class="block-benefits__link">для жизни в Турции</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="block-benefits__column">
+								<div class="block-benefits__item">
+									<img src="./img/icons/check.svg" alt="">
+									<div class="block-benefits__text">
+										<div class="block-benefits__title">Развивайте сразу 4 навыка благодаря комплексным занятиям </div>
+										<div class="block-benefits__subtitle-list">Вы сможете свободно:</div>
+										<div class="block-benefits__row">
+											<ul class="block-benefits__list-column">
+												<li class="block-benefits__link">общаться на турецком</li>
+												<li class="block-benefits__link">воспринимать на слух</li>
+											</ul>
+											<ul class="block-benefits__list-column">
+												<li class="block-benefits__link">писать</li>
+												<li class="block-benefits__link">читать.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="" class="block-benefits__button button">Выбрать новогодний комплект <span>и забрать бонусы</span></a>
+						</div>
+					</div>
+				</section>
+				<section class="page__watch-courses">
+					<div class="watch-courses__content _container">
+						<div class="watch-courses__header">
+							<div class="watch-courses__title">Как выглядят курсы изнутри</div>
+						</div>
+						<div class="watch-courses__body">
+							<div class="watch-courses__column">
+								<div class="watch-courses__item item-watch-courses">
+									<div class="item-watch-courses__image">
+										<img src="./img/icons/box-1.svg" alt="">
+									</div>
+									<div class="item-watch-courses__text">
+										<div class="item-watch-courses__title">Фрагмент 1</div>
+										<div class="item-watch-courses__subtitle">Примеры заданий из курса<br>
+											“Сундук историй”</div>
+										<a href="" class="item-watch-courses__button">Ознакомиться</a>
+									</div>
+								</div>
+							</div>
+							<div class="watch-courses__column">
+								<div class="watch-courses__item item-watch-courses">
+									<div class="item-watch-courses__image">
+										<img src="./img/icons/box-2.svg" alt="">
+									</div>
+									<div class="item-watch-courses__text">
+										<div class="item-watch-courses__title">Фрагмент 2</div>
+										<div class="item-watch-courses__subtitle">Пример задания из видеокурса “Хитит”</div>
+										<a href="" class="item-watch-courses__button">Ознакомиться</a>
+									</div>
+								</div>
+							</div>
+							<div class="watch-courses__column">
+								<div class="watch-courses__item item-watch-courses">
+									<div class="item-watch-courses__image">
+										<img src="./img/icons/box-3.svg" alt="">
+									</div>
+									<div class="item-watch-courses__text">
+										<div class="item-watch-courses__title">Фрагмент 3</div>
+										<div class="item-watch-courses__subtitle">Примеры заданий из курса "Развитие навыков понимания речи на слух"</div>
+										<a href="" class="item-watch-courses__button">Ознакомиться</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="watch-courses__text">И много другого интересного в каждом пакете...</div>
+						<a href="" class="watch-courses__button button">Выбрать свой комплект <span>с новогодней скидкой</span></a>
+					</div>
+				</section>
+				<section class="page__block-bottom">
+					<div class="block-bottom__container _container">
+						<div class="block-bottom__content">
+							<div class="block-bottom__title">При покупке <span>ПОЛНОГО КОМПЛЕКТА ИЗ 4 КУРСОВ</span> до 01 января</div>
+							<div class="block-bottom__subtitle">вы получаете <span>20 БОНУСОВ (это все наши узкоспециализированные курсы)</span>:</div>
+							<ul class="block-bottom__list">
+								<li class="block-bottom__link">Курсы для развития словарного запаса (Начальный уровень А1, Базовый уровень А2, Средний уровень В1, Уровень выше среднего В2) </li>
+								<li class="block-bottom__link">Курсы для чтения А1, А2, В1, В2 </li>
+								<li class="block-bottom__link">Разговорные видеокурсы “Поговорим А1”, “Поговорим А2”</li>
+								<li class="block-bottom__link">Курсы для развития восприятия на слух А1, А2, В1, В2</li>
+								<li class="block-bottom__link">Видеокурс “Хитит”</li>
+								<li class="block-bottom__link">Онлайн курс “Повседневный турецкий”</li>
+							</ul>
+							<div class="block-bottom__sublist">ОБЩАЯ СУММА ПОДАРКОВ 12200 руб. — вам БЕСПЛАТНО! </div>
+							<a href="" class="block-bottom__button button">Выбрать новогодний комплект <span>и забрать бонусы</span></a>
+						</div>
+						<div class="block-bottom__bg">
+							<img src="./img/image-bottom.png" alt="">
+						</div>
+					</div>
+				</section>
+				<img class="page__star-right" src="./img/icons/page-right.svg" alt="">
+			</main>
+			<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__top">
+			<div class="footer__logo">
+				<img src="./img/icons/logo.svg" alt="">
+			</div>
+			<div class="footer__center">
+				г. Москва, пл. Тверская застава д. 3, 4 этаж, оф. 410<br>
+				Копирование информации с сайта и ее размещение возможно только с ссылкой на данный ресурс.
+			</div>
+			<div class="footer__social">
+				<a href="" class="footer__icon"><img src="./img/icons/vk.svg" alt=""></a>
+				<a href="" class="footer__icon"><img src="./img/icons/instagram.svg" alt=""></a>
+				<a href="" class="footer__icon"><img src="./img/icons/facebook.svg" alt=""></a>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			Языковые курсы «Диалог» © 2005 - 2021
+		</div>
+	</div>
+</footer>
+		</div>
+		
+<div class="popup popup_lesson">
+	<img class="popup__star-left" src="./img/icons/star-popup-left.svg" alt="">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"><img src="./img/icons/close.svg" alt=""></div>
+			<div class="popup__block">
+				<div class="popup__block-content">
+					<div class="popup__image">
+						<img src="./img/popup.png" alt="">
+					</div>
+					<div class="popup__form">
+						<div class="popup__title">Подача заявки</div>
+						<div class="popup__subtitle">Оставьте свои контактные данные и наш менеджер свяжется с Вами в ближайшее время</div>
+						<div class="popup__item">
+							<label class="popup__label" for="name">Ваше имя и фамилия</label>
+							<input id="name" tabindex="1" autocomplete="off" name="form[]" value="" placeholder="Имя и Фамилия" class="popup__input" type="text">
+						</div>
+						<div class="popup__item">
+							<label class="popup__label" for="tel">Ваш телефон/whatsapp</label>
+							<input id="tel" tabindex="2" autocomplete="off" name="form[]" value="" placeholder="Телефон/Whatsapp" class="popup__input" type="tel">
+						</div>
+						<div class="popup__item">
+							<label class="popup__label" for="email">Ваш e-mail</label>
+							<input id="email" tabindex="3" autocomplete="off" name="form[]" value="" placeholder="E-mail" class="popup__input" type="email">
+						</div>
+						<div class="popup__buttons">
+							<a href="" class="popup__button button">Подать заявку</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<img class="popup__star-right" src="./img/icons/star-popup-right.svg" alt="">
+</div>
+		<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
